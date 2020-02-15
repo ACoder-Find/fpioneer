@@ -55,23 +55,23 @@ public class UserServiceImpl implements UserService {
            umsMember.setPassword(password);
            userMapper.insert(umsMember);
            Result result  = new Result();
-           result.setType("0");
-           result.setSuccessed(true);
+
+           result.setMessage("注册成功");
            return result ;
        }
 
        else{
-           if (umsMemberList.get(0).getPassword()==password){
+           if (umsMemberList.get(0).getPassword().equals(password)){
                Result result = new Result()  ;
-               result.setType("1");
-               result.setSuccessed(true);
+
+               result.setMessage("登录成功");
                return result ;
            }
            else{
                Result  result  = new Result();
 
-               result.setType("1");
-               result.setSuccessed(false);
+
+               result.setMessage("密码输入错误或者账号已存在");
                return result ;
            }
 
