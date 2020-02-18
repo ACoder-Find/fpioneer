@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/fpioneer-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/fpioneer-api/pom.xml" />
+        <option value="$PROJECT_DIR$/fpioneer-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/fpioneer-service-util/pom.xml" />
+        <option value="$PROJECT_DIR$/fpioneer-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/fpioneer-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/fpioneer-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/fpioneer-passport-web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

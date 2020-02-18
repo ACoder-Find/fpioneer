@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fpioneer-api" />
+        <module name="fpioneer-common-util" />
+        <module name="fpioneer-passport-web" />
+        <module name="fpioneer-service-util" />
+        <module name="fpioneer-user-service" />
+        <module name="fpioneer-user-web" />
+        <module name="fpioneer-web-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fpioneeer-passport-web" target="1.8" />
+      <module name="fpioneer-api" target="1.8" />
+      <module name="fpioneer-common-util" target="1.8" />
+      <module name="fpioneer-parent" target="1.8" />
+      <module name="fpioneer-passport-web" target="1.8" />
+      <module name="fpioneer-service-util" target="1.8" />
+      <module name="fpioneer-user-service" target="1.8" />
+      <module name="fpioneer-user-web" target="1.8" />
+      <module name="fpioneer-web-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
