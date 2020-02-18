@@ -57,6 +57,7 @@ public class UserServiceImpl implements UserService {
            Result result  = new Result();
 
            result.setMessage("注册成功");
+           result.setSucceed(true);
            return result ;
        }
 
@@ -65,6 +66,7 @@ public class UserServiceImpl implements UserService {
                Result result = new Result()  ;
 
                result.setMessage("登录成功");
+               result.setSucceed(true);
                return result ;
            }
            else{
@@ -72,6 +74,7 @@ public class UserServiceImpl implements UserService {
 
 
                result.setMessage("密码输入错误或者账号已存在");
+               result.setSucceed(false);
                return result ;
            }
 
